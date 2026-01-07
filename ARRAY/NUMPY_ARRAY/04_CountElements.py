@@ -3,8 +3,9 @@ from numpy import *
 n=int(input("Enter the size of array: "))
 val=zeros(n,dtype=int)
 
+count=0
 for i in range(n):
-    val[i]=int(input("Enter the elements: "))
+    val[i]=int(input("enter the elementts: "))
+    count=count+1
     
-for i in val:
-    print(i,end=" ")
+print("Number of elements: ",count)
